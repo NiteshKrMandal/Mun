@@ -92,16 +92,16 @@ export const assets = {
 
 export const menu_list = [
   {
-    menu_name: "Nepal",
-    menu_image: nepal_logo,
+    menu_name: "Salad",
+    menu_image: menu_1,
   },
   {
-    menu_name: "Marriage",
-    menu_image: marriage,
+    menu_name: "Rolls",
+    menu_image: menu_2,
   },
   {
     menu_name: "Deserts",
-    menu_image: birth,
+    menu_image: menu_3,
   },
   {
     menu_name: "Sandwich",
