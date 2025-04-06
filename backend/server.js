@@ -40,9 +40,9 @@ app.listen(port, () => {
 app.get("/api/test", (req, res) => {
   res.json({ success: true, message: "Backend is working!" });
 
-  app.listen(port, () => {
-    console.log(`✅ Server started on http://localhost:${port}`);
-  });
+  // app.listen(port, () => {
+  //   console.log(`✅ Server started on http://localhost:${port}`);
+  // });
 });
 
 // mongodb+srv://aaryanmandal1:Mandal6265@cluster0.rv4kj.mongodb.net/?
