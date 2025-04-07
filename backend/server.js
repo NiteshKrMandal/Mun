@@ -33,7 +33,7 @@ app.use("/api/upload", uploadRouter);
 app.get("/", (req, res) => {
   res.send("API Working");
 });
-
+console.log("Reaching app.listen()");
 app.listen(PORT, () => {
   console.log(`Server Started on http://localhost:${PORT}`);
 });
